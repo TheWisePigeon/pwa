@@ -7,6 +7,7 @@ module.exports = withPWA({
   pwa: {
     dest: 'public',
     runtimeCaching,
-    disable: prod ? false : true
+    disable: prod ? false : true,
+    register: true
   }
 })
